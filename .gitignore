@@ -1,6 +1,5 @@
 # Logs do dbt
 logs/
 
-# Dados gerados por 1_local_setup/generate_fake_data.py
-jornada_dw/seeds/*.csv
+# Banco temporário do generate_fake_data.py (os CSVs gerados são versionados para o dbt seed)
 jornada_dw/seeds/*.duckdb
