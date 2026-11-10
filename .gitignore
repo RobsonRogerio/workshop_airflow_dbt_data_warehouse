@@ -1,0 +1,6 @@
+# Logs do dbt
+logs/
+
+# Dados gerados por 1_local_setup/generate_fake_data.py
+jornada_dw/seeds/*.csv
+jornada_dw/seeds/*.duckdb
